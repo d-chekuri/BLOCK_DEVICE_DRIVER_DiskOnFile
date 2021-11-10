@@ -1,0 +1,1 @@
+cmd_/home/timeout1264/DD/main.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id=sha1  -T ./scripts/module-common.lds -o /home/timeout1264/DD/main.ko /home/timeout1264/DD/main.o /home/timeout1264/DD/main.mod.o;  true
